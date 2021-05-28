@@ -8,6 +8,6 @@ def index():
 
 @app.route('/home')
 def mine():
-    return 'My nanme is ujjawal'
+    return 'My nanme is ujjawal'  #use / and then home to see this string
 
 app.run(host='0.0.0.0', port=9000)
